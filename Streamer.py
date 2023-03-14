@@ -16,6 +16,7 @@ class Streamer:
 
         :param server_address: Address of the computer on which the StreamViewer is running, default is `localhost`
         :param port: Port which will be used for sending the stream
+        :param hey: Add custom hey message :)
         """
 
         print("Connecting to ", server_address, "at", port)
